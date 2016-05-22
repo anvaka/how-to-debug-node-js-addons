@@ -1,11 +1,9 @@
 # How to debug node.js addons in xcode?
 
-I recently started programming native addons but couldn't find any information about debugging this.
-After digging for couple nights, I found very easy solution, so going to share it with you.
+I recently started programming native addons but couldn't find how to debug them easily.
+After couple nights, I found very easy solution described below.
 
-This repository serves as a quick reference point for future and current node.js addon developers.
-
-To debug native addons generate an xcode project file, from the root of your project (where `binding.gyp` lives):
+To debug native addons generate an xcode project file. From the root of your project (where `binding.gyp` lives) run:
 
 ```
 node-gyp configure -- -f xcode
