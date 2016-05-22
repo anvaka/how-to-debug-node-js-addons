@@ -22,4 +22,10 @@ Once project is opened, make sure to configure the scheme.  Open `Product -> Sch
 
 # [screencast demo](https://www.youtube.com/watch?v=DND2H2-XfAc)
 
+That's it, you are ready to run project. Any breakpoint that you set in the c++ files will be recoginzed.
+
+Note: If you update your `binding.gyp` file you will need to regenerate your xcode project.
+
+Happy coding!
+
 
